@@ -1,0 +1,41 @@
+apt:
+  primary: sg.archive.ubuntu.com/ubuntu
+variables:
+  os_name:
+    const: ubuntu
+  arch:
+    const: amd64
+  variant:
+    values:
+      - name: minimal
+        path: <variant.name>/<type.name>
+      - name: server
+        path: <type.name>/<variant.name>
+  type:
+    values:
+      - name: daily
+        dir: current
+        filename: <version.name>-<variant.name>-cloudimg-<arch>.img
+      - name: releases
+        dir: release
+        filename: <os_name>-<version.number>-<variant.name>-cloudimg-<arch>.img
+  version:
+    values:
+      - name: noble
+        number: 24.04
+  disk_path:
+    const: <variant.path>/<version.name>/<type.dir>
+  vm_name:
+    const: <os_name>-<type.name>-<variant.name>-<version.name>
+name: <vm_name>
+qemu:
+  core: 2
+  memory: 4096
+disk:
+  url: https://cloud-images.ubuntu.com/<disk_path>/<type.filename>
+  checksum_url: https://cloud-images.ubuntu.com/<disk_path>/SHA256SUMS
+  format: qcow2
+result:
+  manifest: ubuntu/<vm_name>.json
+  path: ubuntu/<vm_name>.img
+  format: qcow2
