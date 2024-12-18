@@ -2,5 +2,5 @@
   "Name": "ubuntu-releases-server-noble",
   "source": "https://cloud-images.ubuntu.com/releases/server/noble/release/ubuntu-24.04-server-cloudimg-amd64.img",
   "source_checksum": "sha256:b63f266fa4bdf146dea5b0938fceac694cb3393688fb12a048ba2fc72e7bfe1b",
-  "result_checksum": "sha256:928d12534599b1ad33313737069be0d2f40cb5e64e5943fae9071cf7ce3a01dd"
+  "result_checksum": "sha256:3c70e294301aadc2ea7049e8381b72b55c1136ec41c06f9aaf65103ce9521817"
 }
