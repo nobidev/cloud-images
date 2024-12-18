@@ -1,0 +1,6 @@
+{
+  "Name": "ubuntu-daily-server-noble",
+  "source": "https://cloud-images.ubuntu.com/daily/server/noble/current/noble-server-cloudimg-amd64.img",
+  "source_checksum": "sha256:e61484705035cd64d8e79c35d6f674acccf03ef9c6939ca50dea8a4fdc7eabeb",
+  "result_checksum": "sha256:fd53f7912b27e4240a8ec230fef07c8d4e66ece6e17c9392a4c99a579533f9a4"
+}
