@@ -1,0 +1,6 @@
+{
+  "Name": "ubuntu-releases-minimal-noble",
+  "source": "https://cloud-images.ubuntu.com/minimal/releases/noble/release/ubuntu-24.04-minimal-cloudimg-amd64.img",
+  "source_checksum": "sha256:c4f9e677e3ff2f09c7f3bf17fef0ae76a9a6b3249b91d89e2b32c6f9ee1c97ed",
+  "result_checksum": "sha256:552c1ce1d4f30a057ab14006a6bbf657dee84d2b01505a57c03f473106843835"
+}

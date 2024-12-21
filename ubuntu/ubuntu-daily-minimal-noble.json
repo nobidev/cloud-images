@@ -1,0 +1,6 @@
+{
+  "Name": "ubuntu-daily-minimal-noble",
+  "source": "https://cloud-images.ubuntu.com/minimal/daily/noble/current/noble-minimal-cloudimg-amd64.img",
+  "source_checksum": "sha256:c4f9e677e3ff2f09c7f3bf17fef0ae76a9a6b3249b91d89e2b32c6f9ee1c97ed",
+  "result_checksum": "sha256:2eae29f08a0a391c307f26f1743256790f5efdcc41b7b1b2e8a067b5a50f6e29"
+}
